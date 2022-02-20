@@ -35,4 +35,10 @@ generateSudoku<-
     z
     
   }
+library(devtools);
+load_all("."); # Working directory should be in the package SCC_R_package
+
+F_to_C(79);
+
+C_to_F(20);
 
